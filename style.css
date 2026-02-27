@@ -7,9 +7,11 @@
     flex: 15%;
     background-color: lightgray;
  }
-.menu{
+.menu hover{
     flex: 5%;
     background-color: darkgray;
+    display: flex;
+    align-items: center; 
 }
 .content{
     flex: 70%;
