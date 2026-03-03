@@ -6,6 +6,7 @@
  .header{
     flex: 15%;
     background-color: lightgray;
+    backgroundurl("images/banner.png") center ;
  }
 .menu hover{
     flex: 5%;
