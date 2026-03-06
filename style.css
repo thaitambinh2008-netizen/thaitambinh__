@@ -6,19 +6,23 @@
  .header{
     flex: 15%;
     background-color: lightgray;
-    backgroundurl("images/banner.png") center ;
-     
+    background url("images/banner.png") center / 100% ;
+    aspect-ratio: 6/1;
  }
 .menu{
     flex: 5%;
     background-color: darkgray;
+    color: white
+    display: flex;
 }
 .menu a{
-    padding:15 px 20px;
+    padding: 15px 20px;
     color: darkpink;
 }
 . menu a: hover{
-   background-color: lightpink; 
+   background-color: lightgray; 
+   color: black;
+}
 .content{
     flex: 70%;
     background-color: white;
