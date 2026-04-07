@@ -1,16 +1,16 @@
 <html>
   <head>
     <p id="kq"> </p>
-    <script>
-      let params = new URLSearchParams(ưindow.location.search);
-      let ten = params.get ("txtTen");
-      let yk = params.get("txtComment");
-      document.getElementById("kq"). innerHTML= "Cảm ơn bạn" + ten + " đã góp ý" +"<br><br> Chúng tôi xin ghi nhận ý kiến của bạn như sau: <br>" +yk ;
-    </script>
     <meta charset="UTF-8">
     <title> Kết quả phản hồi </title>
    </head>
   <body>
+    <script>
+      let params = new URLSearchParams(window.location.search);
+      let ten = params.get ("txtTen");
+      let yk = params.get("txtComment");
+      document.getElementById("kq").innerHTML= "Cảm ơn bạn" + ten + " đã góp ý <br><br> Chúng tôi xin ghi nhận ý kiến của bạn như sau: <br>" +yk ;
+    </script>
     <p><b> Cảm ơm các bạn đã góp ý </b></p>
     <p> Chúng tôi xin ghi nhận ý kiến và sẽ cải tiến, nâng cao chất lượng phục vụ hơn nữa trong thời gian sắp tới </p>
     <br>
